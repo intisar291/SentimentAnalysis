@@ -29,6 +29,8 @@ class Sentiment():
     self.df["pre_process"] = self.df["Updated post"].apply(lambda x: " ".join(x.lower() for x in str(x).split()))
     self.df["pre_process"]=self.df["pre_process"].apply(lambda x: " ".join([re.sub("[^A-Za-z]+"," ", x) for x in nltk.word_tokenize(x)]))
     self.df["pre_process"]=self.df["pre_process"].apply(lambda x: " ".join([x for x in x.split() if x not in self.stop]))
+    self.df["pre_process"]=self.df["pre_process"].map(lambda x: re.sub(r'http://\S+|https://\S+',"",x))
+    self.df.dropna(subset=["pre_process"],inplace=True)
     
     self.X_train,self.X_test,self.Y_train,self.Y_test = train_test_split(self.df["pre_process"], self.df["new_label"], test_size=size_1, random_state=state_1)
     vectorizer_label=TfidfVectorizer()  
@@ -55,6 +57,7 @@ class Sentiment():
     fig1, ax1 = plt.subplots()
     self.df['new_category'].value_counts().plot(ax=ax1, kind='bar', xlabel='0=Troubleshooting   1=Collaborative', ylabel='Frequency')
     plt.show()
+    print(f'Total number of samples {len(df)}') 
 
   
   def svm(self,p_1="l1",c_1=1.4,l_1='squared_hinge',p_2="l1",c_2=0.8,l_2='squared_hinge',d=False,state=0):
