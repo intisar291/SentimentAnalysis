@@ -31,7 +31,7 @@ class Sentiment():
     self.df["pre_process"]=self.df["pre_process"].apply(lambda x: " ".join([x for x in x.split() if x not in self.stop]))
     
     self.X_train,self.X_test,self.Y_train,self.Y_test = train_test_split(self.df["pre_process"], self.df["new_label"], test_size=size_1, random_state=state_1)
-    vectorizer_label=TfidfVectorizer()  #use tfidf vectorizer methods or printout the shape of vectorizer
+    vectorizer_label=TfidfVectorizer()  
     self.tf_x_train = vectorizer_label.fit_transform(self.X_train)
     self.tf_x_test = vectorizer_label.transform(self.X_test) 
 
