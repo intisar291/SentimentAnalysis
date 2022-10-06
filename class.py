@@ -57,7 +57,7 @@ class Sentiment():
     fig1, ax1 = plt.subplots()
     self.df['new_category'].value_counts().plot(ax=ax1, kind='bar', xlabel='0=Troubleshooting   1=Collaborative', ylabel='Frequency')
     plt.show()
-    print(f'Total number of samples {len(df)}') 
+    print(f'Total number of samples {len(self.df)}') 
 
   
   def svm(self,p_1="l1",c_1=1.4,l_1='squared_hinge',p_2="l1",c_2=0.8,l_2='squared_hinge',d=False,state=0):
