@@ -22,7 +22,7 @@ import itertools
 from wordcloud import WordCloud,ImageColorGenerator,STOPWORDS
 import matplotlib.pyplot as plt
 
-# Initiating the Sentiment class
+# Initiating the Sentiment() class by providing file path of the labeled dataset
 new_analysis = Sentiment(r'/path/myComputer/fileLocation/data.xlsx') 
 
 # It is possible to change the parameters of all this methods except .label_encoder()
