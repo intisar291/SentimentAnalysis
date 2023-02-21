@@ -4,7 +4,8 @@ Used 3 machine learning models for categorizing  2 x 2  different target labels 
 
 The activity diagram given below is simply depicted to provide the understanding of the workflow of the process
 
-![walk-through](https://user-images.githubusercontent.com/83521671/220474513-0d0505a0-7990-4cf2-9d24-56396646790a.jpg)
+![Capture](https://user-images.githubusercontent.com/83521671/220478006-3d5fa0ea-28eb-43a2-8634-6149f81100a6.JPG)
+
 
 The word cloud is created to visualize the words with most occurence. It has been created after the data preprocess and cleanning.  
 
