@@ -16,10 +16,9 @@ The activity diagram given below is simply depicted to provide the understanding
 
 ### **Data Preprocessing**
 >>
-The data collected was not in the correct format. Information cleaning is the way toward guaranteeing that information is right, predictable, and usable.
+>>The data collected was not in the correct format. Information cleaning is the way toward guaranteeing that information is right, predictable, and usable.
 For example of cleaning process; the hyperlinks do not contribute as training words, we substituted them with regular expressions(troubleshooting). 
-another example is, irrelevant words such as "customers", "students", "hi", etc have been avoided because they do not have any expressions. Punctuation such as "periods", "commas", "exclamation", etc have also been avoided for this reason.
->>
+another example is, irrelevant words such as "customers", "students", "hi", etc have been avoided because they do not have any expressions. Punctuation such as >>"periods", "commas", "exclamation", etc have also been avoided for this reason.
 
 The word cloud is created to visualize the words with most occurence. It has been created after the data preprocess and cleanning.  
 
