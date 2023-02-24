@@ -34,9 +34,8 @@ The word cloud is created to visualize the words with most occurence. It has bee
 parts- one for training, and the other for testing. We split 80% of the TF-IDF score value of
 the words for training, and the remaining 20% for
 testing.
-in Validation we check the [Precision](https://en.wikipedia.org/wiki/Precision_and_recall), [Recall](https://en.wikipedia.org/wiki/Precision_and_recall),
-[Accuracy](https://en.wikipedia.org/wiki/Accuracy_and_precision) and [F1 score](https://en.wikipedia.org/wiki/F-score) from the results of three dif-
-ferent models. Our result has better Accuracy and
+>>In Validation we check the [Precision](https://en.wikipedia.org/wiki/Precision_and_recall), [Recall](https://en.wikipedia.org/wiki/Precision_and_recall),
+[Accuracy](https://en.wikipedia.org/wiki/Accuracy_and_precision) and [F1 score](https://en.wikipedia.org/wiki/F-score) from the results of three different models. Our result has better Accuracy and
 Precision value than the Recall F1 score. We have
 set the accuracy/precision/F1-score to have a thresh-
 old value. If the value is higher than 75% then the
@@ -44,7 +43,7 @@ error rate will be ”LOW” and we can use the model
 for prediction, And if less than 75% then error rate
 will be ”HIGH” and we will need hyper-tuning the
 parameters for training the model again
-
+>>
 ### **Models Outcome**
 > #### **Support vector machine**-
 >>Table 1 shows the classification reports for the linear
