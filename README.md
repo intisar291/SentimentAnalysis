@@ -1,21 +1,25 @@
+### **Model & Classification** 
+>> This NLP project is basaed on 3 machine learning models for categorizing  2 x 2  different target labels the sentiments on the chats dataset from SQL validator. The main approach is Bag of words, specifically TF-IDF vectorizer.
 
-Used 3 machine learning models for categorizing  2 x 2  different target labels the sentiments on the chats. The program is written on python. As the dataset is confidential, only the structure is provided for understanding.
-
-We selected three models to run our sentiment analysis: Support Vector Machines (SVM), Multinomial Naive Bayes, and Complement Naive Bayes. We have taken two separate column of Label and Category column. Where, Label column consists of 
+We selected 3 models to run our sentiment analysis: 
+- **Support Vector Machines** (SVM) 
+- **Multinomial Naive Bayes**  
+- **Complement Naive Bayes**. 
+- We have taken two separate column for 2 differnet target class, Label and Category. Label column consists of 
 - _Positive_ 
 - _Neutral_ sentiment class
 
 Category column is having 
 - _Collaborative_ 
 - _Troubleshooting_ class. 
-
+>>
 The activity diagram given below is simply depicted to provide the understanding of the workflow of the process
 
 ![walk-through](https://user-images.githubusercontent.com/83521671/220474513-0d0505a0-7990-4cf2-9d24-56396646790a.jpg)
 
 
 ### **Data Preprocessing**
->>
+
 >>The data collected was not in the correct format. Information cleaning is the way toward guaranteeing that information is right, predictable, and usable.
 For example of cleaning process; the hyperlinks do not contribute as training words, we substituted them with regular expressions(troubleshooting). 
 another example is, irrelevant words such as "customers", "students", "hi", etc have been avoided because they do not have any expressions. Punctuation such as >>"periods", "commas", "exclamation", etc have also been avoided for this reason.
