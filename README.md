@@ -34,6 +34,9 @@ The [word cloud](https://boostlabs.com/what-are-word-clouds-value-simple-visuali
 parts- one for training, and the other for testing. We split 80% of the TF-IDF score value of
 the words for training, and the remaining 20% for
 testing.
+This table shows the frequency distribution of the number of the sample collected from the SQLValidator. 
+![Frequency of datasest](https://user-images.githubusercontent.com/83521671/221268358-d66ad774-aeed-4fb3-86a9-98777f2c431d.JPG)
+
 >>In Validation we check the [Precision](https://en.wikipedia.org/wiki/Precision_and_recall), [Recall](https://en.wikipedia.org/wiki/Precision_and_recall),
 [Accuracy](https://en.wikipedia.org/wiki/Accuracy_and_precision) and [F1 score](https://en.wikipedia.org/wiki/F-score) from the results of three different models. Our result has better Accuracy and
 Precision value than the Recall F1 score. We have
