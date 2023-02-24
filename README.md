@@ -30,7 +30,11 @@ The [word cloud](https://boostlabs.com/what-are-word-clouds-value-simple-visuali
 ![download](https://user-images.githubusercontent.com/83521671/220476057-b3354b1f-fb3b-4f6e-9cca-872ed396b2ba.png)
 
 ### **Validation & Criteria**
->>The TF-IDF score of each word is then split into two
+>>It is comprised of 1167 rows of chats
+data, of which, 278 belongs to the positive sentiment,
+whereas, the remaining 889 are deemed as of neutral
+sentiment. Similarly, the dataset was categorized as-
+836 collaborative and 331 troubleshooting responses. The TF-IDF score of each word is then split into two
 parts- one for training, and the other for testing. We split 80% of the TF-IDF score value of
 the words for training, and the remaining 20% for
 testing.
@@ -90,5 +94,17 @@ Collaborative are 88.0% and 90.4% respectively. The
 
 The evalution matrix of 3 models are given below on tabular form
 ![Score](https://user-images.githubusercontent.com/83521671/220477521-6f520912-ecdd-45ed-b7b5-0ef1b221c6b4.JPG)
+
+### **Conclusion**
+To answer the question, which Sentiment Analysis
+models are more efficient for free text survey among the listed 3,
+we found that SVM has successfully provided
+the better outcome on average for all target classes,
+after the training and validation.To improve the result on test datasets, in the pre-
+processing step, using Lemmatization can improve
+the quality of model outcome and evaluation score.
+Also several combinations from prior probability of
+Naive bayes model may cause difference in evalua-
+tion score.
 
 
