@@ -2,7 +2,7 @@
 >This NLP project is basaed on 3 machine learning models for categorizing  2 x 2  different target labels the sentiments on the chats dataset from SQL validator. The main approach is [Bag of words](https://en.wikipedia.org/wiki/Bag-of-words_model), specifically [TF-IDF vectorizer](https://en.wikipedia.org/wiki/Tf%E2%80%93idf).
 
 >>We selected 3 models to run our sentiment analysis: 
-- **[Support Vector Machines](https://en.wikipedia.org/wiki/Support_vector_machine)** (SVM) 
+- **[Support Vector Machines](https://en.wikipedia.org/wiki/Support_vector_machine)**
 - **[Multinomial Naive Bayes](https://www.mygreatlearning.com/blog/multinomial-naive-bayes-explained/)**  
 - **[Complement Naive Bayes](https://www.geeksforgeeks.org/complement-naive-bayes-cnb-algorithm/)**. 
 
@@ -28,6 +28,22 @@ another example is, irrelevant words such as "customers", "students", "hi", etc 
 The word cloud is created to visualize the words with most occurence. It has been created after the data preprocess and cleanning.  
 
 ![download](https://user-images.githubusercontent.com/83521671/220476057-b3354b1f-fb3b-4f6e-9cca-872ed396b2ba.png)
+
+### **Validation & Criteria**
+>>The TF-IDF score of each word is then split into two
+parts- one for training, and the other for testing. We split 80% of the TF-IDF score value of
+the words for training, and the remaining 20% for
+testing.
+in Validation we check the [Precision](https://en.wikipedia.org/wiki/Precision_and_recall), [Recall](https://en.wikipedia.org/wiki/Precision_and_recall),
+[Accuracy](https://en.wikipedia.org/wiki/Accuracy_and_precision) and [F1 score](https://en.wikipedia.org/wiki/F-score) from the results of three dif-
+ferent models. Our result has better Accuracy and
+Precision value than the Recall F1 score. We have
+set the accuracy/precision/F1-score to have a thresh-
+old value. If the value is higher than 75% then the
+error rate will be ”LOW” and we can use the model
+for prediction, And if less than 75% then error rate
+will be ”HIGH” and we will need hyper-tuning the
+parameters for training the model again
 
 ### **Models Outcome**
 > #### **Support vector machine**-
