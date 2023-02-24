@@ -30,7 +30,7 @@ The word cloud is created to visualize the words with most occurence. It has bee
 ![download](https://user-images.githubusercontent.com/83521671/220476057-b3354b1f-fb3b-4f6e-9cca-872ed396b2ba.png)
 
 ### **Models Outcome**
-#### **Support vector machine**-
+>> #### **Support vector machine**-
 Table 1 shows the classification reports for the linear
 SVC method. The precision and f1-score for neutral
 are 86.5% and 89.4% respectively. Whereas the pre-
@@ -58,8 +58,19 @@ Collaborative are 86.2% and 91.2% respectively. The
 accuracy for the model is 86.4%.
 
 #### **Complement Naive Bayes**-
-
-
+Table 5 shows the classification reports for the Com-
+plement Naive Bayes method. The precision and f1-
+score for neutral are 85.9% and 81.8% respectively.
+Whereas the precision and f1-score for positive are
+46.5% and 52.4% respectively. The accuracy for the
+model is 73.7%.
+Table 6 shows the classification reports for the
+Complement Naive Bayes method. The precision and
+f1-score for Troubleshooting are 76.9% and 70.8%
+respectively. Whereas the precision and f1-score for
+Collaborative are 88.0% and 90.4% respectively. The
+accuracy for the model is 85.5%.
+>>
 The evalution matrix of 3 models are given below on tabular form
 ![Score](https://user-images.githubusercontent.com/83521671/220477521-6f520912-ecdd-45ed-b7b5-0ef1b221c6b4.JPG)
 
