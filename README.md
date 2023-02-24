@@ -11,8 +11,8 @@
 - _Neutral_ 0
 
 >>Category column is having 
-- _Collaborative_ 0 
-- _Troubleshooting_ 1. 
+- _Collaborative_ 1 
+- _Troubleshooting_ 0. 
 
 The activity diagram given below is simply depicted to provide the understanding of the workflow of the process
 
