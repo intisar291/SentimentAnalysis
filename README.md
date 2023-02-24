@@ -1,5 +1,5 @@
 ### **Model & Classification** 
->This NLP project is basaed on 3 machine learning models for categorizing  2 x 2  different target labels the sentiments on the chats dataset from SQL validator. The main approach is [Bag of words](https://en.wikipedia.org/wiki/Bag-of-words_model), specifically [TF-IDF vectorizer](https://en.wikipedia.org/wiki/Tf%E2%80%93idf).
+>This NLP project is basaed on 3 machine learning models for categorizing  2 different target types in binary classification for predicting the sentiments on the chats dataset from SQL validator. The main approach is [Bag of words](https://en.wikipedia.org/wiki/Bag-of-words_model), specifically [TF-IDF vectorizer](https://en.wikipedia.org/wiki/Tf%E2%80%93idf).
 
 >>We selected 3 models to run our sentiment analysis: 
 - **[Support Vector Machines](https://en.wikipedia.org/wiki/Support_vector_machine)**
@@ -7,12 +7,12 @@
 - **[Complement Naive Bayes](https://www.geeksforgeeks.org/complement-naive-bayes-cnb-algorithm/)**. 
 
 >>We have taken two separate column for 2 differnet target class, Label and Category. Label column consists of 
-- _Positive_ 
-- _Neutral_ sentiment class
+- _Positive_ 1
+- _Neutral_ 0
 
 >>Category column is having 
-- _Collaborative_ 
-- _Troubleshooting_ class. 
+- _Collaborative_ 0 
+- _Troubleshooting_ 1. 
 
 The activity diagram given below is simply depicted to provide the understanding of the workflow of the process
 
