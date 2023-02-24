@@ -25,7 +25,7 @@ The activity diagram given below is simply depicted to provide the understanding
 For example of cleaning process; the hyperlinks do not contribute as training words, we substituted them with regular expressions(troubleshooting). 
 another example is, irrelevant words such as "customers", "students", "hi", etc have been avoided because they do not have any expressions. Punctuation such as "periods", "commas", "exclamation", etc have also been avoided for this reason.
 >>
-The word cloud is created to visualize the words with most occurence. It has been created after the data preprocess and cleanning.  
+The [word cloud](https://boostlabs.com/what-are-word-clouds-value-simple-visualizations/) is created to visualize the words with most occurence. It has been created after the data preprocess and cleanning.  
 
 ![download](https://user-images.githubusercontent.com/83521671/220476057-b3354b1f-fb3b-4f6e-9cca-872ed396b2ba.png)
 
