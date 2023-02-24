@@ -30,8 +30,8 @@ The word cloud is created to visualize the words with most occurence. It has bee
 ![download](https://user-images.githubusercontent.com/83521671/220476057-b3354b1f-fb3b-4f6e-9cca-872ed396b2ba.png)
 
 ### **Models Outcome**
->> #### **Support vector machine**-
-Table 1 shows the classification reports for the linear
+> #### **Support vector machine**-
+>>Table 1 shows the classification reports for the linear
 SVC method. The precision and f1-score for neutral
 are 86.5% and 89.4% respectively. Whereas the pre-
 cision and f1-score for positive are 69.8% and 61.2%
@@ -41,24 +41,23 @@ linear SVC method. The precision and f1-score for
 Troubleshooting are 85.7% and 69.9% respectively.
 Whereas the precision and f1-score for Collaborative
 are 86.5% and 91.2% respectively. The accuracy for
-the model is 86.4%
+>>the model is 86.4%
 
-#### **Multinomial Naive Bayes**-
-Table 3 shows the classification reports for the Multi-
+> #### **Multinomial Naive Bayes**-
+>>Table 3 shows the classification reports for the Multi-
 nomial Naive Bias method. The precision and f1-
 score for neutral are 80.8% and 88.5% respectively.
 Whereas the precision and f1-score for positive are
 78.9% and 40.5% respectively. The accuracy for the
-model is 80.7%.
-Table 4 shows the classification reports for the
+model is 80.7%. Table 4 shows the classification reports for the
 Multinomial Naive Bias method. The precision and
 f1-score for Troubleshooting are 87.5% and 69.3%
 respectively. Whereas the precision and f1-score for
 Collaborative are 86.2% and 91.2% respectively. The
-accuracy for the model is 86.4%.
+>>accuracy for the model is 86.4%.
 
-#### **Complement Naive Bayes**-
-Table 5 shows the classification reports for the Com-
+> #### **Complement Naive Bayes**-
+>>Table 5 shows the classification reports for the Com-
 plement Naive Bayes method. The precision and f1-
 score for neutral are 85.9% and 81.8% respectively.
 Whereas the precision and f1-score for positive are
@@ -69,8 +68,8 @@ Complement Naive Bayes method. The precision and
 f1-score for Troubleshooting are 76.9% and 70.8%
 respectively. Whereas the precision and f1-score for
 Collaborative are 88.0% and 90.4% respectively. The
-accuracy for the model is 85.5%.
->>
+>>accuracy for the model is 85.5%.
+
 The evalution matrix of 3 models are given below on tabular form
 ![Score](https://user-images.githubusercontent.com/83521671/220477521-6f520912-ecdd-45ed-b7b5-0ef1b221c6b4.JPG)
 
