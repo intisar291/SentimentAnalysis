@@ -1,5 +1,5 @@
 ### **Model & Classification** 
->This NLP project is basaed on 3 machine learning models for categorizing  2 x 2  different target labels the sentiments on the chats dataset from SQL validator. The main approach is Bag of words, specifically TF-IDF vectorizer.
+>This NLP project is basaed on 3 machine learning models for categorizing  2 x 2  different target labels the sentiments on the chats dataset from SQL validator. The main approach is [Bag of words](https://en.wikipedia.org/wiki/Bag-of-words_model), specifically TF-IDF vectorizer.
 
 >>We selected 3 models to run our sentiment analysis: 
 - **Support Vector Machines** (SVM) 
