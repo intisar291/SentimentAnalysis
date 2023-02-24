@@ -42,6 +42,24 @@ Troubleshooting are 85.7% and 69.9% respectively.
 Whereas the precision and f1-score for Collaborative
 are 86.5% and 91.2% respectively. The accuracy for
 the model is 86.4%
+
+#### **Multinomial Naive Bayes**-
+Table 3 shows the classification reports for the Multi-
+nomial Naive Bias method. The precision and f1-
+score for neutral are 80.8% and 88.5% respectively.
+Whereas the precision and f1-score for positive are
+78.9% and 40.5% respectively. The accuracy for the
+model is 80.7%.
+Table 4 shows the classification reports for the
+Multinomial Naive Bias method. The precision and
+f1-score for Troubleshooting are 87.5% and 69.3%
+respectively. Whereas the precision and f1-score for
+Collaborative are 86.2% and 91.2% respectively. The
+accuracy for the model is 86.4%.
+
+#### **Complement Naive Bayes**-
+
+
 The evalution matrix of 3 models are given below on tabular form
 ![Score](https://user-images.githubusercontent.com/83521671/220477521-6f520912-ecdd-45ed-b7b5-0ef1b221c6b4.JPG)
 
